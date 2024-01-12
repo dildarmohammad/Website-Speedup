@@ -1,0 +1,9 @@
+Website Speedup must need below points:
+
+Step1: Optimize all images and use light weight images always.
+Step2: Optimize stylesheet (css) file,
+a. D'nt Use inline css
+b. Make seperate file of css and enqueue in the function file through hook.
+Step3: Optimize Javascript File.
+Step4: In case of Videos section in website d'nt upload videos on website server
+always try to take link from YouTube are third part link.
