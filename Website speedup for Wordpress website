@@ -1,0 +1,12 @@
+/*Website speedup for Wordpress website*/
+
+Step 1: First need to compress Images,Style and JS
+So you can use WP-Optimize plugin from wordpress and use its setting to minify Images,style and Js
+Link: https://wordpress.org/plugins/wp-optimize/
+
+Step 2: Also use one more plugin Wp Smush for Images compress and speedup
+Its compress fifty images for free version you can use its pro version.
+Link: https://wordpress.org/plugins/wp-smushit/
+
+Step 3: Remove all inline css and Js file
+Always enqueue through Action hook in your theme finction file.
